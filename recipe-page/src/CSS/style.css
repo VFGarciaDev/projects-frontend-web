@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+    background-color: rgb(255, 213, 196);
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Outfit', 'Courier New', Courier;
+}
+
+h1, h2{
+    font-family: 'Young Serif', 'Courier New', Courier;
+    font-weight: 400;
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+}
+
+h3{
+    color: hsl(332, 51%, 32%);
+    padding: 15px 0 0 15px;
+}
+
+ul, ol{
+    list-style-position: inside;
+    padding: 20px;
+    line-height: 30px;
+}
+
+ol {
+    list-style-type: none; /* Remove os números padrão */
+    counter-reset: my-counter; /* Reinicia o contador */
+}
+
+ol li::before {
+    content: counter(my-counter); /* Usa o contador como conteúdo */
+    counter-increment: my-counter; /* Incrementa o contador */
+    font-weight: bold; /* Deixa a numeração em negrito */
+    margin-right: 0.5em; /* Ajusta o espaçamento entre a numeração e o texto */
+    color: hsl(14, 45%, 36%);
+}
+
+hr{
+    width: 100%;
+}
+
+.recipe-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 25px;
+    width: 100%;
+    max-width: 960px;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.image{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.preparation{
+    background-color: hsla(331, 100%, 91%, 0.411);
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nutrition{
+    width: 100%;
+    line-height: 50px;
+}
+
+table{
+    width: 100%;
+    padding-left: 30px;
+    border-collapse: collapse;
+}
+tr{
+    height: 50px;
+}
+td{
+    border-bottom: 1px solid black
+}
+
+.table-value{
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
