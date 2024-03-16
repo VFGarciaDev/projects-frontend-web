@@ -1,14 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projetos do Front-End Mentor</title>
-</head>
-<body>
-    <h1>Projetos do Front-End Mentor</h1>
+    <title>Projetos - Front-End Mentor</title>
 
-    <h3>Recipe page</h3>
-    <a href="./html-css/recipe-page/index.html" target="_blank">Recipe page - Omelette</a>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #C4C4C4;
+            height: 100vh;
+            display: flex;
+        }
+
+        .container {
+            background-color: white;
+            margin: 30px auto;
+            min-width: 50%;
+            border-radius: 20px;
+            display: grid;
+            grid-template-rows: 80px repeat(2, 1fr);
+        }
+
+        h1,
+        h2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section {
+            padding: 20px 15px;
+        }
+
+        dl {
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        dt {
+            font-size: 20px;
+        }
+
+        dd {
+            margin-left: 20px;
+            margin-top: 5px;
+            font-size: 17px;
+        }
+
+        dd:before {
+            content: "\2022";
+            display: inline-block;
+            width: 10px;
+            text-align: center;
+            margin-left: -20px;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+        <h1>Desafios - Front-End Mentor</h1>
+
+        <section class="html-css">
+            <h2>HTML + CSS</h2>
+
+            <dl>
+                <dt>
+                    <a href="./html-css/recipe-page/index.html" target="_blank">Recipe page</a>
+                </dt>
+                <dd>Uso de Flexbox para criação do Layout</dd>
+            </dl>
+        </section>
+
+        <section class="html-css-js">
+            <h2>HTML/CSS + JavaScript</h2>
+
+            <dl>
+                <dt>
+                    <a href="" target="_blank">N/A</a>
+                </dt>
+                <dd>N/A</dd>
+            </dl>
+        </section>
+    </main>
 </body>
 </html>
