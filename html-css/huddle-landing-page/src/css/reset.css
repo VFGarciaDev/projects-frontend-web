@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+h1{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 70px;
+}
+p{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 2.3rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    padding: 15px 90px;
+    border-radius: 40px;
+    color: hsl(257, 40%, 49%);
+    font-weight: 400;
+    font-size: 2.5rem;
+}
