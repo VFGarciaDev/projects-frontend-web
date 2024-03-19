@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a{
+    color: black;
+}
+
+dd:before {
+    content: "\2022";
+    display: inline-block;
+    width: 10px;
+    text-align: center;
+    margin-left: -30px;
+}
