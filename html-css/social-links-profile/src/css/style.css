@@ -1,0 +1,52 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-card{
+    background-color: hsl(0, 0%, 12%);
+    padding: 50px 30px;
+    border-radius: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.photo{
+    width: 35%;
+    margin-bottom: 25px;
+}
+.location{
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    margin: 10px 0 20px;
+}
+
+.links{
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+}
+li{
+    text-align: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+a{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    flex-grow: 1;
+    padding: 20px 0;
+}
+a:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
