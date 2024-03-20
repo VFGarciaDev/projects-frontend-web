@@ -1,0 +1,86 @@
+body{
+    background-color: hsl(0, 0%, 81%);
+    padding: 50px;
+    display: flex;
+    height: 100vh;
+}
+
+.container{
+    height: 100%;
+    display: grid;
+    grid:
+    "daniel daniel jonathan kira" 1fr
+    "jeanette patrick patrick kira" 1fr
+    / 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin: 0 auto;
+}
+.block{
+    padding: 40px;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    border-radius: 20px;
+}
+.block-1{
+    grid-area: daniel;
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+    background-size: 18%;
+}
+.block-2{
+    grid-area: jonathan;
+    background-color: hsl(217, 19%, 35%);
+}
+.block-3{
+    grid-area: jeanette;
+    background-color: white;
+}
+.block-4{
+    grid-area: patrick;
+    background-color: hsl(219, 29%, 14%);
+}
+.block-5{
+    grid-area: kira;
+    background-color: white;
+}
+.profile{
+    display: grid;
+    grid:
+    "photo name" 1fr
+    "photo verified" 1fr
+    / auto 1fr;
+    margin-bottom: 30px;
+}
+.profile img{
+    grid-area: photo;
+    align-self: center;
+    margin-right: 30px;
+    border: 2px solid black;
+    border-radius: 50%
+}
+.name{
+    grid-area: name;
+    align-self: flex-end;
+    font-size: 16px;
+    font-weight: 600;
+}
+.verified{
+    grid-area: verified;
+    align-self: flex-start;
+    opacity: 50%;
+}
+
+.text{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-gap: 30px;
+}
+.sub-title{
+    font-size: 26px;
+}
+.description{
+    font-size: 16px;
+    opacity: 70%;
+}

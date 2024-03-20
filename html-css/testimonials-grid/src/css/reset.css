@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    color: white;
+    font-size: 14px;
+}
+.name, .verified, .description{
+    color: hsl(0, 0%, 81%);
+}
+.sub-title{
+    color: hsl(210, 46%, 95%);
+    font-weight: 600;
+}
+.block-3 p, .block-5 p{
+    color: hsl(219, 29%, 14%);
+}
