@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 2.4rem;
+    padding: 2.4rem;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    box-shadow: 8px 8px #000000;
+    max-width: 384px;
+}
+
+.blog-image{
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-image img{
+    border-radius: 10px;
+    width: 100%;
+    max-height: 200px;
+}
+
+.content{
+    grid-row: 2;
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 1.2rem;
+}
+.category{
+    grid-column: 1;
+}
+.category p{
+    display: inline;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: 800;
+    padding: 0.4rem 1.2rem;
+}
+.content p:nth-child(2){
+    font-size: 1.4rem;
+}
+h1{
+    font-size: 2.4rem;
+}
+.description{
+    color: hsl(0, 0%, 50%);
+    font-size: 1.6rem;
+}
+
+.author{
+    grid-row: 3;
+    display: flex;
+    align-items: center;
+}
+.author img{
+    height: 32px;
+    width: 32px;
+    margin-right: 1.2rem;
+}
+a:hover{
+    color: hsl(47, 88%, 63%);
+    text-shadow: 1px 1px hsl(0, 0%, 50%);
+}
