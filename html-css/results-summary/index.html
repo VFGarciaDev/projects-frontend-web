@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results Summary - FrontEnd Mentor</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+
+    <!-- Teacher says it's better putting the font-link in HTML than in CSS, for better efficiency -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Kumbh+Sans:wght@100..900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="card">
+        <section class="main-score">
+            <h1 class="color-gray">Your Result</h1>
+            <div class="main-result">
+                <p class="value">76</p>
+                <p class="color-gray max-value">of 100</p>
+            </div>
+            <h2>Great</h2>
+            <p class="color-gray detail">You scored higher than 65% of the people who have taken these tests.</p>
+        </section>
+        <section class="sub-score">
+            <h3 class="color-dark-gray">Summary</h3>
+            <div class="sub-result">
+                <div class="result-box reaction-result">
+                    <p class="category color-red"><img src="src/images/icon-reaction.svg">Reaction</p>
+                    <p class="sub-value"><span class="color-dark-gray">80</span> / 100</p>
+                </div>
+                <div class="result-box memory-result">
+                    <p class="category color-yellow"><img src="src/images/icon-memory.svg">Memory</p>
+                    <p class="sub-value"><span class="color-dark-gray">92</span> / 100</p>
+                </div>
+                <div class="result-box verbal-result">
+                    <p class="category color-green"><img src="src/images/icon-verbal.svg">Verbal</p>
+                    <p class="sub-value"><span class="color-dark-gray">61</span> / 100</p>
+                </div>
+                <div class="result-box visual-result">
+                    <p class="category color-blue"><img src="src/images/icon-visual.svg">Visual</p>
+                    <p class="sub-value"><span class="color-dark-gray">72</span> / 100</p>
+                </div>
+            </div>
+            <button class="continue">Continue</button>
+        </section>
+    </main>
+</body>
+</html>

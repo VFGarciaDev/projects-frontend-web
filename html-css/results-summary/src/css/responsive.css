@@ -1,0 +1,14 @@
+@media(max-width:780px){
+    .card{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(2, 1fr);
+        max-width: 480px;
+    }
+    .main-score{
+        grid-row: 1;
+    }
+    .sub-score{
+        grid-row: 2;
+    }
+}
