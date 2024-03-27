@@ -1,0 +1,19 @@
+@media(max-width: 768px){
+    .card{
+        border-radius: 10px;
+        display: grid;
+        grid-template: auto 1fr / auto;
+    }
+    picture{
+        grid-row: 1;
+
+    }
+    .product-details{
+        grid-row: 2;
+        display: grid;
+        grid-gap: 1.2rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+}

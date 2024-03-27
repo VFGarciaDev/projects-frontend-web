@@ -1,0 +1,73 @@
+body{
+    background-color: #ffeabe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 50%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+picture{
+    grid-column: 1;
+    display: flex;
+}
+img{
+    max-width: 100%;
+}
+
+.product-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2.4rem;
+}
+.category{
+    letter-spacing: 0.4rem;
+}
+.fraunces-font{
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+}
+h1{
+    font-size: 2.4rem;
+    max-width: 80%;
+    line-height: 2.4rem;
+}
+.description{
+    align-self: center;
+}
+.price{
+    display: flex;
+    align-items: center;
+}
+.price p:first-child{
+    color: hsl(158, 36%, 37%);
+    font-size: 2.4rem;
+}
+.price p:last-child{
+    margin-left: 1.4rem;
+    text-decoration: line-through;
+}
+button{
+    border-style: none;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 1rem;
+}
+button img{
+    max-height: 1.2rem;
+    margin-right: 0.8rem;
+}
+button:hover{
+    background-color: hsl(124, 21%, 14%);
+    cursor: pointer;
+}
