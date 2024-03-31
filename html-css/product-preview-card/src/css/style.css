@@ -10,12 +10,13 @@ body{
     background-color: #ffffff;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    max-width: 50%;
     border-radius: 5px;
+    max-width: 720px;
+    max-height: 540px;
     overflow: hidden;
 }
 
-picture{
+.product-image{
     grid-column: 1;
     display: flex;
 }
@@ -27,22 +28,24 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 2.4rem;
+    padding: 3rem;
 }
 .category{
     letter-spacing: 0.4rem;
+    font-size: 1.4rem;
 }
 .fraunces-font{
     font-family: "Fraunces", serif;
     font-weight: 700;
 }
 h1{
-    font-size: 2.4rem;
-    max-width: 80%;
-    line-height: 2.4rem;
+    font-size: 3.6rem;
+    max-width: 70%;
 }
 .description{
     align-self: center;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
 }
 .price{
     display: flex;
@@ -50,21 +53,23 @@ h1{
 }
 .price p:first-child{
     color: hsl(158, 36%, 37%);
-    font-size: 2.4rem;
+    font-size: 3.6rem;
 }
 .price p:last-child{
     margin-left: 1.4rem;
     text-decoration: line-through;
+    font-size: 1.6rem;
 }
 button{
     border-style: none;
     background-color: hsl(158, 36%, 37%);
     border-radius: 5px;
     color: #ffffff;
-    padding: 1rem;
+    padding: 1.5rem;
+    font-size: 2rem;
 }
 button img{
-    max-height: 1.2rem;
+    max-height: 2.4rem;
     margin-right: 0.8rem;
 }
 button:hover{
