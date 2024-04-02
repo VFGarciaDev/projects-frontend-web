@@ -1,0 +1,21 @@
+@media(max-width: 945px){
+    .card{
+        grid-template: repeat(2, 1fr) / auto;
+        max-width: 540px;
+    }
+    .image-preview{
+        grid-row: 1;
+    }
+    .stats-info{
+        grid-row: 2;
+        padding: 20px 50px;
+        text-align: center;
+    }
+    .stats-info ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .stats-info ul li{
+        align-items: center;
+    }
+}
