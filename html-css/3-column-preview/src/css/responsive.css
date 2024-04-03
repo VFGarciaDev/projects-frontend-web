@@ -1,0 +1,10 @@
+@media(max-width:768px){
+    .container{
+        grid-template: repeat(3, 1fr) / auto;
+        max-width: 360px;
+        margin: 10px 0;
+    }
+    .category{
+        min-height: 480px;
+    }
+}
