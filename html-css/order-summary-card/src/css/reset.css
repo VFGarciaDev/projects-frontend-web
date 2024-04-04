@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Red Hat Display", sans-serif;
+    color: var(--color-desaturated-blue);
+}
+:root{
+    --color-pale-blue: hsl(225, 100%, 94%);
+    --color-bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --color-desaturated-purple: hsl(256, 42%, 57%);
+    --color-dark-blue: hsl(223, 47%, 23%);
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
