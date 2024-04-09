@@ -1,0 +1,14 @@
+@media(max-width:992px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        max-width: 400px;
+    }
+    footer{
+        margin-top: 20px;
+    }
+}

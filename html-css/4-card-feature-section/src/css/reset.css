@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    color: var(--txt-light-gray);
+}
+:root{
+    --color-red: hsl(0, 78%, 62%);
+    --color-cyan: hsl(180, 62%, 55%);
+    --color-orange: hsl(34, 97%, 64%);
+    --color-blue: hsl(212, 86%, 64%);
+    --txt-dark-blue: hsl(234, 12%, 34%);
+    --txt-light-gray: hsl(229, 6%, 66%);
+    --bg-light-gray: hsl(0, 0%, 98%);
+}
