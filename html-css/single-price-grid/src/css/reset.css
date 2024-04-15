@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Karla", sans-serif;
+}
+:root{
+    --bg-color-cyan: hsl(179, 62%, 43%);
+    --bg-color-light-cyan: hsl(179, 50%, 56%);
+    --text-color-yellow: hsl(71, 73%, 54%);
+    --bg-color-gray: hsl(204, 43%, 93%);
+    --bg-color-blue: hsl(218, 22%, 67%);
+}
+ul{
+    list-style-type: none;
+}

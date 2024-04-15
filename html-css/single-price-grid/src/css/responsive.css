@@ -1,0 +1,14 @@
+@media(max-width:768px){
+    .container{
+        display: grid;
+        grid:
+        "top-section" 1fr
+        "left-section" 1fr
+        "right-section" 1fr
+        / 1fr;
+        max-width: 450px;
+    }
+    .attribution{
+        margin-top: 20px;
+    }
+}
