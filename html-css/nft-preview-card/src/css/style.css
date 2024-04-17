@@ -102,3 +102,13 @@ body{
 .info h1 a:hover, .author a:hover{
     color: var(--color-cyan);
 }
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+.attribution a{
+    color: var(--color-cyan);
+    text-decoration: underline;
+}
