@@ -1,0 +1,104 @@
+:root{
+    --color-soft-blue: hsl(215, 51%, 70%);  /* Timer color */
+    --color-cyan: hsl(178, 100%, 50%);  /* ETH Color / Hover Effect */
+    --bg-darker-blue: hsl(217, 54%, 11%);  /* Main BG */
+    --bg-dark-blue: hsl(216, 50%, 16%);  /* Card BG */
+    --color-grey-blue: hsl(215, 32%, 27%);  /* Line / Main text color */
+
+}
+body{
+    background-color: var(--bg-darker-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: var(--color-soft-blue);
+    font-weight: 300;
+}
+.card{
+    background-color: var(--bg-dark-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 400px;
+}
+.image{
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.image img{
+    width: 100%;
+}
+.image .hover-effect{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.25);
+    z-index: 1;
+    opacity: 0;
+    transition: 0.3s;
+}
+.image .hover-effect:hover{
+    opacity: 1;
+}
+.image .hover-effect img{
+    width: 50px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+.info h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.nft-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 25px 0;
+}
+.nft-info p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+.nft-info p:first-child{
+    color: var(--color-cyan);
+}
+.nft-info p:last-child{
+    font-weight: 500;
+}
+.author{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-top: 1px solid var(--color-grey-blue);
+    padding-top: 20px;
+    width: 100%;
+}
+.author img{
+    width: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.author p a{
+    margin-left: 5px;
+}
+.info h1 a:hover, .author a:hover{
+    color: var(--color-cyan);
+}
