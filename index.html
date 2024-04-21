@@ -1,66 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projetos - Front-End Mentor</title>
+    <link rel="shortcut icon" href="./src/image/favicon-32x32.png" type="image/x-icon">
+    <title>Portfolio | FrontEnd Mentor</title>
 
-    <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
 
+    
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <main class="container">
-        <div class="header">
-            <h1 class="titulo">Desafios - Front-End Mentor</h1>
-        </div>
-        <section class="html-css">
-            <h2>HTML + CSS</h2>
-
-            <dl class="projetos">
-                <dt>
-                    <a href="html-css/recipe-page/index.html" target="_blank">Recipe page</a>
-                </dt>
-                <dd>Principal uso de Flexbox & Responsividade</dd>
-                <dt>
-                    <a href="html-css/huddle-landing-page/index.html" target="_blank">Huddle Landing page</a>
-                </dt>
-                <dd>Principal uso de Grid/Flexbox & Responsividade</dd>
-                <dt>
-                    <a href="html-css/social-links-profile/index.html" target="_blank">Social Links - Profile</a>
-                </dt>
-                <dd>Principal uso de Grid/Flexbox & Responsividade</dd>
-                <dt>
-                    <a href="html-css/testimonials-grid/index.html" target="_blank">Testimonials</a>
-                </dt>
-                <dd>Principal uso de Grid/Flexbox & Responsividade</dd>
-                <dt>
-                    <a href="html-css/results-summary/index.html" target="_blank">Results Summary</a>
-                </dt>
-                <dd>Principal uso de Grid/Flexbox & Responsividade</dd>
-            </dl>
+        <header class="header">
+            <h1>Meu portfólio do FrontEnd Mentor</h1>
+            <p>Descrição</p>
+        </header>
+        <section class="grid-display">
+            <div class="project css js">
+                <div class="top image">
+                    <a href="https://vfgarciadev.github.io/projetos-front-end-mentor/html-css-js/interactive-rating-component/index.html" target="_blank"><img src="./html-css-js/interactive-rating-component/src/design/overview-design.png" alt="Overview of my Design"></a>
+                </div>
+                <div class="bot">
+                    <a href="https://github.com/VFGarciaDev/projetos-front-end-mentor/tree/main/html-css-js/interactive-rating-component" target="_blank"><h2>Interactive Rating card</h2></a>
+                    <div class="tools">
+                        <p>Tools used:</p>
+                        <ul>
+                            <li><i class="devicon-html5-plain-wordmark colored"></i></li>
+                            <li><i class="devicon-css3-plain-wordmark colored"></i></li>
+                            <li><i class="devicon-javascript-plain colored"></i></li>
+                        </ul>
+                    </div>
+                    <p>texto texto</p>
+                </div>
+            </div>
         </section>
-
-        <section class="html-css-js">
-            <h2>HTML/CSS + JavaScript</h2>
-
-            <dl class="projetos">
-                <dt>
-                    <a href="#" target="_blank">N/A</a>
-                </dt>
-                <dd>N/A</dd>
-            </dl>
-        </section>
-        <div class="footer">
-            <ul class="social-media">
-
-            </ul>
-        </div>
     </main>
+
+    <script src="./src/js/index.js"></script>
 </body>
 </html>
