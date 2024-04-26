@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: var(--main-text-color);
+    font-family: "Manrope", sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+}
+img{
+    display: block;
+}
+.attribution{
+    position: absolute;
+    bottom: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: default;
+}
+.attribution a {
+    font-size: 1.2rem;
+    color: var(--hl-text-color);
+    border-bottom: 1px solid;
+    margin-left: 5px;
+}
+@media (max-width: 468px){
+    .attribution{
+        max-width: 300px;
+        text-align: center;
+        line-height: 1.8rem;
+    }
+}

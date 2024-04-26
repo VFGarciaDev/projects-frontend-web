@@ -1,0 +1,7 @@
+:root{
+    --main-text-color: hsl(193, 38%, 86%);  /* Light Cyan */
+    --hl-text-color: hsl(150, 100%, 66%);  /* Neon Green */
+    --grayish-blue: hsl(217, 19%, 38%);  /* Grayish Blue */
+    --bg-card-color: hsl(217, 19%, 24%);  /* Dark Grayish Blue */
+    --main-bg-color: hsl(218, 23%, 16%);  /* Dark Blue */
+}

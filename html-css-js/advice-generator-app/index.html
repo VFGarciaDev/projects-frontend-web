@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./src/image/favicon-32x32.png" type="image/x-icon">
+
+        <link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="./src/css/variables.css">
+        <link rel="stylesheet" href="./src/css/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+        <title>Advice Generator App | FrontEnd Mentor</title>
+    </head>
+    <body>
+        <main class="card">
+            <p class="advice-id" id="advice-id"><!-- Advice ID --></p>
+            <p class="advice-text" id="advice-text"><!-- Advice Text --></p>
+            <picture class="divider">
+                <source srcset="./src/image/pattern-divider-desktop.svg" media="(min-width:768px)">
+                <img src="./src/image/pattern-divider-mobile.svg" alt="">
+            </picture>
+            <button type="button" id="advice-button" class="button-dice">
+                <img src="./src/image/icon-dice.svg" alt="Dice button">
+            </button>
+        </main>
+
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="https://www.frontendmentor.io/profile/VFGarciaDev" target="_blank">Victor Garcia</a>.
+        </div>
+
+        <script src="./src/js/index.js"></script>
+    </body>
+</html>
