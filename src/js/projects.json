@@ -16,7 +16,7 @@
         },
         {
             "name": "Interactive Rating card",
-            "image": "html-css-js/interactive-rating/src/design/overview-design.png",
+            "image": "html-css-js/interactive-rating/src/design/overview-design.png?raw=true",
             "tools": ["html","css","js"],
             "challenge": "FrontEnd Mentor",
             "description": ["CSS Grid & Flexbox", "JS DOM e EventListener"]
