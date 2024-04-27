@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
 
     
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
@@ -20,28 +21,40 @@
         <header class="header">
             <h1>Meu portfólio do FrontEnd Mentor</h1>
             <p>Descrição</p>
+            <select name="tools" class="select-tools">
+                <option value="">Select tools used:</option>
+                <option value="css">Only HTML&CSS</option>
+                <option value="js">CSS + JavaScript</option>
+            </select>
         </header>
         <section class="grid-display">
-            <div class="project css js">
-                <div class="top image">
-                    <a href="https://vfgarciadev.github.io/projetos-front-end-mentor/html-css-js/interactive-rating-component/index.html" target="_blank"><img src="./html-css-js/interactive-rating-component/src/design/overview-design.png" alt="Overview of my Design"></a>
-                </div>
-                <div class="bot">
-                    <a href="https://github.com/VFGarciaDev/projetos-front-end-mentor/tree/main/html-css-js/interactive-rating-component" target="_blank"><h2>Interactive Rating card</h2></a>
+            <div class="project-card">
+                <a href="#" target="_blank" id="blur"><img src="" alt="Overview of my Design" id="proj-img"></a>
+                <div class="info">
+                    <a href="#" target="_blank"><h2 id="proj-name"></h2></a>
                     <div class="tools">
                         <p>Tools used:</p>
                         <ul>
-                            <li><i class="devicon-html5-plain-wordmark colored"></i></li>
-                            <li><i class="devicon-css3-plain-wordmark colored"></i></li>
-                            <li><i class="devicon-javascript-plain colored"></i></li>
+                            <li class="html display-none">
+                                <i class="devicon-html5-plain-wordmark colored"></i></li>
+                            <li class="css display-none">
+                                <i class="devicon-css3-plain-wordmark colored"></i></li>
+                            <li class="js display-none">
+                                <i class="devicon-javascript-plain colored"></i></li>
+                            <li class="api display-none">
+                                <img src="./src/image/api-icon.png" alt="api"></li>
                         </ul>
                     </div>
-                    <p>texto texto</p>
+                    <p id="challenge">Challenge by: </p>
+                    <!-- <p id="description"></p> -->
+                    <ul id="description">
+                        <p>Uso de: </p>
+                    </ul>
                 </div>
             </div>
         </section>
     </main>
 
-    <script src="./src/js/index.js"></script>
+    <script type="module" src="./src/js/index.js"></script>
 </body>
 </html>
