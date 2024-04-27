@@ -9,7 +9,7 @@
         },
         {
             "name": "Advice Generator App",
-            "image": "../../html-css-js/advice-generator-app/src/design/overview-design.png",
+            "image": "./../../html-css-js/advice-generator-app/src/design/overview-design.png",
             "tools": ["html","css", "js" ,"api"],
             "challenge": "FrontEnd Mentor",
             "description": ["CSS Grid & Flexbox", "JS DOM e EventListener", "API de sugestões"]
