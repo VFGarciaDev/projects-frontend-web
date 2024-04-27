@@ -2,7 +2,7 @@
     "projetos": [
         {
             "name": "",
-            "image": "../../html-css-js/xxx/src/design/overview-design.png",
+            "image": "html-css-js/xxx/src/design/overview-design.png",
             "tools": [""],
             "challenge": "",
             "description": [""]
@@ -16,7 +16,7 @@
         },
         {
             "name": "Interactive Rating card",
-            "image": "../../html-css-js/interactive-rating/src/design/overview-design.png",
+            "image": "html-css-js/interactive-rating/src/design/overview-design.png",
             "tools": ["html","css","js"],
             "challenge": "FrontEnd Mentor",
             "description": ["CSS Grid & Flexbox", "JS DOM e EventListener"]
