@@ -1,0 +1,89 @@
+:root{
+    --dark-grey: hsl(0, 0%, 17%);
+    --light-grey: hsl(0, 0%, 59%);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100vw;
+    min-height: 100vh;
+    position: relative;
+}
+.bg-image{
+    background-image: url(../images/pattern-bg-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#map-api{
+    width: 100%;
+    height: 70vh;
+    z-index: 1;
+}
+.content{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 40px;
+}
+.content h1{
+    color: #fff;
+}
+.search-bar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    width: 45vw;
+    overflow: hidden;
+}
+.ip-input:hover, .ip-button:hover{
+    cursor: pointer;
+}
+.ip-input{
+    background-color: #fff;
+    padding: 20px 90px 20px 20px;
+    width: 100%;
+    border: none;
+    font-size: 1.3rem;
+}
+.ip-button{
+    position: absolute;
+    height: 100%;
+    right: 0;
+    width: 70px;
+    border: none;
+    background-color: #000;
+}
+.info{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 20px;
+    width: 70vw;
+}
+.info li{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    font-size: 1.5rem;
+    border-right: 1px solid var(--light-grey);
+}
+.info li:last-child{
+    border: none;
+}
+.info h2{
+    font-size: 1rem;
+    color: var(--light-grey);
+}

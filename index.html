@@ -4,34 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./src/image/favicon-32x32.png" type="image/x-icon">
-    <title>Portfolio | FrontEnd Mentor</title>
-
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="stylesheet" href="./src/css/responsive.css">
-
     
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <title>My Challenges</title>
 </head>
 <body>
     <main class="container">
         <header class="header">
-            <h1>Meu portfólio do FrontEnd Mentor</h1>
-            <p>Descrição</p>
-            <select name="tools" class="select-tools">
-                <option value="">Select tools used:</option>
-                <option value="css">Only HTML&CSS</option>
-                <option value="js">CSS + JavaScript</option>
+            <h1>Meus desafios de FrontEnd Web</h1>
+            <p>Nessa página, estarei mostrando todos os desafios que eu realizei, sendo alguns orientados por cursos na web como o curso Dev. Quest, e outros por sites específicos para isso como FrontEnd Mentor por exemplo. Para cada desafio, vocês poderão ver quais ferramentas foram usadas, conferir o visual final(clicando na imagem) e conferir o código(clicando no título do desafio).<br>
+            <strong>Vale informar que esses são "pequenos desafios", para conferir projetos maiores, basta entrar em um dos links a seguir:</strong></p>
+            <ul style="margin-top: 10px">
+                <li class="link-github">
+                    <i class="devicon-github-original"></i>
+                    <a class="link-github" href="#" target="_blank">Perfil GitHub</a></li>
+                <li class="link-portfolio">
+                    <i class="devicon-gitbook-original"></i>
+                    <a class="link-portfolio" href="#" target="_blank">Meu Portfólio</a></li>
+            </ul>
+            <select name="tools" class="tools-selector">
+                <option value="all">Todos projetos</option>
+                <option value="css">Only HTML & CSS</option>
+                <option value="js">+ JavaScript</option>
+                <option value="api">JS + API</option>
             </select>
         </header>
         <section class="grid-display">
             <div class="project-card">
-                <a href="#" target="_blank" id="blur"><img src="" alt="Overview of my Design" id="proj-img"></a>
+                <a class="liveURL" href="#" target="_blank" id="blur"><img src="" alt="Overview of my Design" id="proj-img"></a>
                 <div class="info">
-                    <a href="#" target="_blank"><h2 id="proj-name"></h2></a>
+                    <a class="github" href="#" target="_blank"><h2 id="proj-name"></h2></a>
                     <div class="tools">
                         <p>Tools used:</p>
                         <ul>
@@ -46,7 +54,6 @@
                         </ul>
                     </div>
                     <p id="challenge">Challenge by: </p>
-                    <!-- <p id="description"></p> -->
                     <ul id="description">
                         <p>Uso de: </p>
                     </ul>
@@ -55,6 +62,7 @@
         </section>
     </main>
 
+    <script type="module" src="./src/js/project-info.js"></script>
     <script type="module" src="./src/js/index.js"></script>
 </body>
 </html>

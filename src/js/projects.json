@@ -2,21 +2,27 @@
     "projetos": [
         {
             "name": "",
-            "image": "html-css-js/xxx/src/design/overview-design.png",
+            "github": "https://github.com/VFGarciaDev/projects-frontend-web/tree/main/html-css-js/xxx",
+            "image": "./html-css-js/xxx/src/design/overview-design.png",
+            "liveURL": "https://vfgarciadev.github.io/projects-frontend-web/html-css-js/xxx/index.html",
             "tools": [""],
             "challenge": "",
             "description": [""]
         },
         {
             "name": "Advice Generator App",
-            "image": "html-css-js/advice-generator-app/src/design/overview-design.png?raw=true",
+            "github": "https://github.com/VFGarciaDev/projects-frontend-web/tree/main/html-css-js/advice-generator-app",
+            "image": "./html-css-js/advice-generator-app/src/design/overview-design.png",
+            "liveURL": "https://vfgarciadev.github.io/projects-frontend-web/html-css-js/advice-generator-app/index.html",
             "tools": ["html","css", "js" ,"api"],
             "challenge": "FrontEnd Mentor",
             "description": ["CSS Grid & Flexbox", "JS DOM e EventListener", "API de sugestões"]
         },
         {
             "name": "Interactive Rating card",
-            "image": "html-css-js/interactive-rating/src/design/overview-design.png?raw=true",
+            "github": "https://github.com/VFGarciaDev/projects-frontend-web/tree/main/html-css-js/interactive-rating",
+            "image": "./html-css-js/interactive-rating/src/design/overview-design.png",
+            "liveURL": "https://vfgarciadev.github.io/projects-frontend-web/html-css-js/interactive-rating/index.html",
             "tools": ["html","css","js"],
             "challenge": "FrontEnd Mentor",
             "description": ["CSS Grid & Flexbox", "JS DOM e EventListener"]
